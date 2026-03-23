@@ -1,0 +1,270 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 0px 0px 0px ;
+    background-color: rgba(158, 128, 128, 0.225);
+    backdrop-filter:blur;
+    
+    
+   
+}
+#root{
+    width: 500px;
+   
+    background-color: white;
+  
+}
+
+.Reject{
+    height: 800px;
+    max-width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.Header{
+    flex: 1.2;
+    display: flex;
+    border-bottom:1px solid rgb(155, 153, 153) ;
+    flex-direction: row;
+    
+}
+.Text{
+     flex: 3;
+    display: flex;
+    margin: 0px 10px;
+    flex-direction: column;
+    gap:4px;
+    justify-content: center;
+    align-items: start;
+    
+}
+.Text p{
+    display: flex;
+    color: black;
+    font-weight: lighter;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 0px;
+}
+.Text a{
+    display: flex;
+    color: black;
+    font-weight: lighter;
+    
+    font-size: 135%;
+    margin: 0px;
+}
+.icon{
+     flex: 1;
+    display: flex;
+   
+   justify-content: end;
+    align-items: center;
+    
+}
+.icon p{
+    display: flex;
+    color: black;
+    font-weight: lighter;
+    font-weight: bold;
+    font-size: 250%;
+    margin: 10px 0px;
+    color: rgba(19, 17, 17, 0.711);
+    
+}
+.icon p:hover{
+    color: blue;
+}
+.Second{
+    flex: 1.2;
+    display: flex;
+   border-bottom:1px solid #e2dbdb ;
+    flex-direction: row;
+   
+    justify-content: center;
+    align-items: center;
+}
+.Second button{
+    width:60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(210, 231, 240, 0.489);
+    font-size: 120%;
+    color: grey;
+    
+    
+    
+}
+.Second button:hover{
+    background-color: #cf1616;
+    scale: 1.1;
+      color: white;
+}
+.Middal{
+    flex: 10;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #828f951b;
+   
+}
+.RejectMoviesheader{
+    flex: 1;
+    display: flex;
+    
+    flex-direction: column;
+    margin: 0px 13px;
+    
+   
+    
+}
+.RejectMoviesheader p{
+   
+  font-size: 150%;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.line{
+    margin: 0px;
+  height: 4px;
+  width: 50%;
+  background: linear-gradient(to right, red, orange, yellow);
+  border-radius: 5px;
+
+}
+
+
+.imagesummary{
+    flex: 13;
+    display: grid;
+    
+    margin: 20px 210px 10px 20px;
+    border-radius: 30px;
+    flex-direction: column;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .1);
+    background-color: white;
+    
+}
+
+.imagesummary:hover{
+     box-shadow: 0 30px 60px rgba(255, 77, 77, .2);
+     border: 1px solid rgba(255, 77, 77, .3);
+}
+.image{
+    flex: 2;
+    display: flex;
+   
+    margin:0px 0px 30px 0px;
+    border-radius: 30px 30px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+     display: flex;
+     border-radius: 29px;
+         box-shadow: 0 12px 28px rgba(0, 0, 0, .25);
+}
+.image img:hover{
+    
+     transform: translateY(10.74539px) rotate(9.872696deg);
+    
+}
+
+.movie{
+    flex: 3;
+    display: flex;
+     margin:0px 15px;
+     flex-direction: column;
+     gap:30px
+     
+    
+}
+.movie p{
+    display: flex;
+    color:black;
+    font-weight: lighter;
+    font-size: 150%;
+    font-weight: bold;
+    flex-direction: column;
+    gap:10px
+
+}
+
+.line1{
+    
+margin: 0px 0px 0px 0px;
+  height: 4px;
+  width: 25%;
+  background: linear-gradient(to right, red, orange, yellow);
+  border-radius: 5px;
+
+}
+
+.movie a{
+     display: flex;
+    color: #201e1e;
+    font-weight: lighter;
+    font-size: 130%;
+}
+
+#date {
+    display: flex;
+    color: grey;
+    font-weight: bold;
+    font-size: 120%;
+    margin: 0px 0px;
+    
+}
+#reson{
+    margin: 12px 0 0;
+    font-size: 13px;
+    color: #eb3349;
+    padding: 12px 16px;
+    background: rgba(235, 51, 73, .1);
+    border-radius: 16px;
+    border-left: 4px solid #eb3349;
+    font-weight: 600;
+    backdrop-filter: blur(4px);
+}
+
+.Last{
+    flex: 1;
+    display: flex;
+    background-color: rgba(210, 231, 240, 0.489);
+    justify-content:end;
+    align-items: center;
+    
+}
+.Last button{
+    position: fixed;
+    width: 15%;
+  height: 8%;
+  bottom: 30px;
+  right: 30px;
+  background: linear-gradient(45deg, orange, red);
+  border: none;
+  color: white;
+  font-size: 25px;
+  transform: translateY(-1.74539px) rotate(0.872696deg);
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(255, 77, 77, .4);
+  animation: float 3s ease-in-out infinite;
+ 
+}
+
+    
+
