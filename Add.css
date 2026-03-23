@@ -1,23 +1,33 @@
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     margin:150px 0px;
-    background-color: rgba(158, 128, 128, 0.225);
-    backdrop-filter:blur;
+       background: rgb(39 36 36 / 80%);
+       position: fixed;
+    
     
     
    
 }
 #root{
-    width: 400px;
-   border-radius: 40px;
+    display: flex;
+    max-width: 350px;
+    height: 90vh;
+   border-radius: 30px;
     background-color: white;
+    overflow-y: scroll;
+   justify-content: center;
+   position: fixed;
+    top: 30px;
+    right: 20px;
+    bottom: 10px;
+    left: 20px;
+   
   
 }
 .Add{
     height: 800px;
-    max-width: 400px;
+    
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -33,9 +43,11 @@ body{
     display: flex;
 }
 .AddMovie p{
-     display: flex;
-     font-size: 130%;
-     color: red;
+    display: flex;
+    font-size: 18px;
+    background: linear-gradient(to right, red, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
      font-weight: lighter;
      margin: 17px 0px 0px 17px;
      font-weight: bold;
@@ -50,7 +62,7 @@ body{
     background-color:#fff;
     border: none;
     color: #3d3232;
-    font-size: 90%;
+    font-size: 70%;
     margin: 0px 13px;
 }
 .Title{
@@ -63,16 +75,17 @@ body{
     
 }
 .Title a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+     display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
    
 }
 .Title p{
-    display: flex;
+   display: flex;
     color: black;
-    font-size: 80%;
+    font-size: 13px;
     margin: 0px 0px;
     font-weight: bold;
    
@@ -83,10 +96,10 @@ body{
     display: flex;
 }
 .TTextbox input{
-    display: flex;
+      display: flex;
     flex: 1;
-    
-      margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
     
@@ -115,8 +128,9 @@ body{
 }
 .Poster a{
     display: flex;
-    color: red;
-    font-size: 150%;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
     
    
@@ -124,8 +138,8 @@ body{
 .Poster p{
     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -148,7 +162,7 @@ body{
     margin: 7px 15px;
     text-align:start;
     
-    
+    font-size: 13px;
     border:1px solid rgb(117, 115, 115);
     
     border-radius: 10px;
@@ -173,9 +187,10 @@ body{
     
 }
 .Releas a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+     display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
     
    
@@ -183,8 +198,8 @@ body{
 .Releas p{
     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -196,15 +211,13 @@ body{
     
 }
 .Date input{
-    display: flex;
+     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
-    
-    
-    border:1px solid rgb(117, 115, 115);
-    
-    border-radius: 10px;
+    border:0.2px solid gray;
+     border-radius: 10px;
     outline: none;
     
 
@@ -226,17 +239,18 @@ body{
    
 }
 .Language a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+     display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
    
 }
 .Language p{
     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -248,15 +262,15 @@ body{
 .LTextbox input{
     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
     
-    border:1px solid rgb(117, 115, 115);
+    border:0.2px solid gray;
     
     border-radius: 10px;
     outline: none;
-    
 
 }
 .LTextbox input:hover{
@@ -276,9 +290,10 @@ body{
     
 }
 .Descraption a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+     display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
     
    
@@ -286,8 +301,8 @@ body{
 .Descraption p{
     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -297,13 +312,14 @@ body{
     display: flex;
 }
 .DTextbox textarea{
-    display: flex;
+     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
     
-    border:1px solid rgb(117, 115, 115);
+    border:0.2px solid gray;
     
     border-radius: 10px;
     outline: none;
@@ -328,8 +344,9 @@ body{
 }
 .Genres a{
     display: flex;
-    color: red;
-    font-size: 150%;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
     
    
@@ -337,8 +354,8 @@ body{
 .Genres p{
     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -348,13 +365,14 @@ body{
     display: flex;
 }
 .GTextbox input{
-    display: flex;
+     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
-    font-size: 110%;
-    border:1px solid rgb(117, 115, 115);
+    
+    border:0.2px solid gray;
     
     border-radius: 10px;
     outline: none;
@@ -383,6 +401,7 @@ body{
     display: flex;
     height: 60%;
     width: 50%;
+    font-size: 13px;
      margin: 0px 10px 0px 15px;
      border-radius: 15px;
      border: none;
@@ -402,7 +421,7 @@ body{
      border-radius: 15px;
      border: 0.5px solid lightblue;
      background: rgba(102, 126, 234, .1);
-     
+     font-size: 13px;
     
     color: #4158d0;
     border: 2px solid rgba(65, 88, 208, .2);

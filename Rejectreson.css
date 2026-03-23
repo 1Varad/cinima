@@ -2,32 +2,49 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:150px 0px;
-    background-color: rgba(158, 128, 128, 0.225);
-    backdrop-filter:blur;
+    margin:150px 120px;
+        background: rgb(39 36 36 / 80%);
+        position: fixed;
+   
+    
+    
     
     
    
 }
 #root{
-    width: 400px;
-   border-radius: 20px;
+    display: flex;
+    max-width: 350px;
+    height: 90vh;
+   border-radius: 30px;
     background-color: white;
-    scrollbar-width: auto;
+    overflow-y: scroll;
+   justify-content: center;
+   position: fixed;
+    top: 30px;
+    right: 20px;
+    bottom: 10px;
+    left: 20px;
+    
+    
+        
+       
   
 }
 .Rejectreson{
-    height: 800px;
-    max-width: 400px;
+    height:800px;
+   
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 3px 4px white(0,0,244.0.1);
+    background-color: white;
    
     
     
    
 }
+
 .Edit{
     flex: 0.7;
    
@@ -35,8 +52,10 @@ body{
 }
 .Edit p{
      display: flex;
-     font-size: 130%;
-     color: red;
+    font-size: 18px;
+    background: linear-gradient(to right, red, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
      font-weight: lighter;
      margin: 17px 0px 0px 17px;
      font-weight: bold;
@@ -51,27 +70,28 @@ body{
     background-color:#fff;
     border: none;
     color: #3d3232;
-    font-size: 90%;
+    font-size: 70%;
     margin: 0px 13px;
 }
 
 .Reson{
-    flex: 0.7;
+    flex: 1.1;
    
     display: flex;
     margin: 10px 20px 0px 16px;
     border-radius: 10px;
     background-color: pink;
-   border-left: 5px solid #793b3b;
+   border-left: 5px solid #eb3349;;
 }
 .Reson p{
     display: flex;
-    color: black;
+    
     margin: 0px 10px;
     justify-content: center;
     align-items: center;
-    color: #793b3b;
+    color: #eb3349;;
     font-weight: bold;
+    font-size:14px;;
 }
 .Titler{
      flex: 0.8;
@@ -84,15 +104,16 @@ body{
 }
 .Titler a{
     display: flex;
-    color: red;
-    font-size: 150%;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
    
 }
 .Titler p{
     display: flex;
     color: black;
-    font-size: 80%;
+    font-size: 13px;
     margin: 0px 0px;
     font-weight: bold;
    
@@ -105,8 +126,8 @@ body{
 .TTextboxr input{
     display: flex;
     flex: 1;
-    
-      margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
     
@@ -134,18 +155,18 @@ body{
     
 }
 .Posterr a{
-    display: flex;
-    color: red;
-    font-size: 150%;
-    margin: 0px 0px 0px 10px;
+   display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
     
+    margin: 0px 0px 0px 10px;
    
 }
 .Posterr p{
-    display: flex;
+     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -162,7 +183,7 @@ body{
 .imageexit p{
     display: flex;
     margin: 0 20px;
-    font-size: 70%;
+    font-size:smaller;
 }
 .filear{
      flex: 1;
@@ -182,7 +203,7 @@ body{
     margin: 7px 15px;
     text-align:start;
     
-    
+    font-size: 13px;
     border:1px solid rgb(117, 115, 115);
     
     border-radius: 10px;
@@ -207,18 +228,19 @@ body{
     
 }
 .Releasr a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+   display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
     
    
 }
 .Releasr p{
-    display: flex;
+     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -230,18 +252,15 @@ body{
     
 }
 .Dater input{
+    
     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
-    
-    
-    border:1px solid rgb(117, 115, 115);
-    
-    border-radius: 10px;
+    border:0.2px solid gray;
+     border-radius: 10px;
     outline: none;
-    
-
 }
 .Dater input:hover{
     scale: 1;
@@ -260,17 +279,18 @@ body{
    
 }
 .Languager a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+   display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
    
 }
 .Languager p{
-    display: flex;
+     display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -280,13 +300,14 @@ body{
     display: flex;
 }
 .LTextboxr input{
-    display: flex;
+     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
     
-    border:1px solid rgb(117, 115, 115);
+    border:0.2px solid gray;
     
     border-radius: 10px;
     outline: none;
@@ -310,18 +331,19 @@ body{
     
 }
 .Descraptionr a{
-    display: flex;
-    color: red;
-    font-size: 150%;
+   display: flex;
+    color: #ff4d4d;
+    font-size: 20px;
+    
     margin: 0px 0px 0px 10px;
     
    
 }
 .Descraptionr p{
-    display: flex;
+   display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -331,13 +353,14 @@ body{
     display: flex;
 }
 .DTextboxr textarea{
-    display: flex;
+     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
     
-    border:1px solid rgb(117, 115, 115);
+    border:0.2px solid gray;
     
     border-radius: 10px;
     outline: none;
@@ -362,17 +385,17 @@ body{
 }
 .Genresr a{
     display: flex;
-    color: red;
-    font-size: 150%;
-    margin: 0px 0px 0px 10px;
+    color: #ff4d4d;
+    font-size: 20px;
     
+    margin: 0px 0px 0px 10px;
    
 }
 .Genresr p{
-    display: flex;
+   display: flex;
     color: black;
-    font-size: 80%;
-    margin: 10px 0px;
+    font-size: 13px;
+    margin: 0px 0px;
     font-weight: bold;
    
 }
@@ -384,11 +407,12 @@ body{
 .GTextboxr input{
     display: flex;
     flex: 1;
-    margin: 7px 15px;
+    font-size: 13px;
+      margin: 2px 17px;
     text-align:start;
     
-    font-size: 110%;
-    border:1px solid rgb(117, 115, 115);
+    
+    border:0.2px solid gray;
     
     border-radius: 10px;
     outline: none;
@@ -425,6 +449,7 @@ body{
      justify-content: center;
      align-items: center;
       box-shadow: 0 8px 20px rgba(255, 77, 77, .3);
+      font-size: 13px;
     
 }
 #cancelr{
@@ -443,4 +468,5 @@ body{
     backdrop-filter: blur(4px);
     justify-content: center;
     align-items: center;
+    font-size: 13px;
 }
